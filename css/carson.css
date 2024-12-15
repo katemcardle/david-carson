@@ -1,0 +1,135 @@
+/*CSS reset*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1rem;
+}
+
+/*Default style for entire page*/
+body {
+    color: black;
+    border-color: white;
+    background-color: white;
+}
+
+/* Default styling for Headings */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times,
+    serif;
+    line-height: 1.1;
+    font-weight: 700;
+    }
+
+/*specific styles*/
+h1 {
+    font-size: 4.25rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+p {
+    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    }
+
+/*List format*/
+ul {
+    list-style-type: disc outside;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+}
+
+ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+/*Link format*/
+a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: white;
+}
+a:visited {
+    color:blueviolet;
+    }
+
+/* images*/
+img {
+    max-width: 1020px;
+    width:100%;
+    height:auto;
+    border:1px solid #101010;
+    margin-bottom: 2rem;
+    }
+
+/*Footer*/
+footer {
+    width: 100%;
+    align-content: center;
+    background-color: #3d2c73;
+    font-size: 1rem;
+    color: white;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0.75rem;
+}
+footer ul{
+    padding: 0 16px;
+}
+footer a:visited {
+    color: white;
+}
+
+/*Main*/
+main{
+    margin-bottom: 2.5rem;
+    }
+
+/*Nav bar*/
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0;
+    overflow: hidden;
+    background-color: #3d2c73;
+}
+li{
+    display: inline-block;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #5b4898;
+}
