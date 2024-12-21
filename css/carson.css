@@ -131,3 +131,30 @@ li a{
 li a:hover{
     background-color: #5b4898;
 }
+
+
+/*Section 3*/
+.three{
+    background-color: #FAD209;
+    padding: 1rem;
+    max-width: 25%;
+    height: 25%;
+
+}
+/*Section 5*/
+.five{
+    max-width: 100%;
+    height: auto;
+}
+/*Section 6*/
+.six{
+    padding: 1rem 2rem;
+}
+/*Section 7*/
+.seven{
+    padding: 1rem 2rem;
+}
+/*Bibliography section*/
+.bib{
+    padding: 3rem 0;
+}
