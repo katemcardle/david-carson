@@ -141,6 +141,57 @@ li a:hover{
     height: 25%;
 
 }
+/*Section 4*/
+.four{
+    width: 100%;
+    height: auto;
+}
+.four p {
+    margin: 0rem 0rem 0rem 5rem;
+    line-height: 4.5rem;
+}
+.four h1{
+    margin: 0rem 2rem 0rem 2rem;
+}
+.fourcols{
+    position: relative;
+}
+.column1 {
+    z-index: 2;
+}
+.column2{
+    z-index: 1;
+    position: absolute;
+    top: 6.5rem;
+    left: 25rem;
+}
+.transparentbg{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+.background-imagetwo{
+    position: absolute;
+    transform: rotate(180deg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    z-index: -1;
+}
+    
 /*Section 5*/
 .five{
     max-width: 100%;
@@ -148,13 +199,15 @@ li a:hover{
 }
 /*Section 6*/
 .six{
-    padding: 1rem 2rem;
+    max-width: 100%;
+    height: auto;
 }
 /*Section 7*/
 .seven{
-    padding: 1rem 2rem;
+    padding: 1rem 3.5rem;
 }
 /*Bibliography section*/
 .bib{
-    padding: 3rem 0;
+    max-width: 100%;
+    height: 50%;
 }
