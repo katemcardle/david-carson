@@ -132,7 +132,42 @@ li a:hover{
     background-color: #5b4898;
 }
 
+/*Section 1*/
+.one{
+    text-align: left;
+    background-color: white;
+    margin: 1rem;
+}
+.topcontainer {
+    width: 100vw;
+    position: relative;
+    text-align: left;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
 
+.bottom-left {
+    position: absolute;
+    bottom: 0.5px;
+    left: 16px;
+}
+.bottom-left h1{
+    line-height: 4rem;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    line-height: 1.25rem;
+    padding: 0 2rem 0 0;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
 /*Section 3*/
 .three{
     background-color: #FAD209;
