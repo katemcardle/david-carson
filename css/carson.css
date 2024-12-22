@@ -169,12 +169,29 @@ li a:hover{
     right: 16px;
   }
 /*Section 3*/
-.three{
-    background-color: #FAD209;
-    padding: 1rem;
-    max-width: 25%;
-    height: 25%;
-
+.three-container{
+display: flex;
+height: 100vh;
+background-color: #Fad21b;
+}
+.three-left{
+flex: 1;
+overflow: auto;
+}
+.three-left h1{
+    padding-top: 15rem;
+    padding-right: 10rem;
+}
+.three-right{
+    flex: 1;
+    position: relative;
+}
+.three-right img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 500px;
 }
 /*Section 4*/
 .four{
