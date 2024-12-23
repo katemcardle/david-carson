@@ -179,8 +179,8 @@ flex: 1;
 overflow: auto;
 }
 .three-left h1{
-    padding-top: 15rem;
-    padding-right: 10rem;
+    font-size: 4rem;
+    padding: 11.2rem 10rem 0rem 2rem;
 }
 .three-right{
     flex: 1;
@@ -190,8 +190,8 @@ overflow: auto;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 70%;
-    height: 500px;
+    width: 100%;
+    height: 580px;
 }
 /*Section 4*/
 .four{
@@ -203,7 +203,8 @@ overflow: auto;
     line-height: 4.5rem;
 }
 .four h1{
-    margin: 3rem 2rem 3rem 2rem;
+    font-size: 4rem;
+    margin: 0rem 2rem 3rem 2rem;
 }
 .fourcols{
     position: relative;
@@ -249,15 +250,64 @@ overflow: auto;
     max-width: 100%;
     height: auto;
 }
+
+
 /*Section 6*/
 .six{
+    position: relative;
     max-width: 100%;
     height: auto;
+    padding: 1rem 3.5rem 0rem 3.5rem;
+    margin: 0 auto;
 }
+.siximgcontainer{
+    position: relative;
+    text-align: right;
+}
+.siximg{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 12rem;
+    z-index: -1;
+}
+.conone{
+    text-align: right;
+    line-height: 2.25rem;
+    padding-right: 15rem;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    padding-bottom: 8rem;
+    font-size: 4rem;
+}
+.contwo{
+    position: absolute;
+    right: 0;
+    line-height: 1rem;
+    text-align: right;
+    transform: rotate(180deg);
+    bottom: 8px;
+    padding-top: 10.5rem;
+    font-size: 4rem;
+}
+.leftprgh{
+    position: absolute;
+    text-align: left;
+    bottom: 1px;
+    left: 1px;
+}
+
+
+
+
 /*Section 7*/
 .seven{
-    padding: 1rem 3.5rem;
+    padding: 0rem 3.5rem 1rem 3.5rem;
+    margin: 0;
 }
+
+
 /*Bibliography section*/
 .bib{
     max-width: 100%;
