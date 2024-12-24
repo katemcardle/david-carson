@@ -171,10 +171,61 @@ li a:hover{
     top: 8px;
     right: 16px;
   }
+/*Section 2*/
+.two{
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    height: auto;
+}
+.twocols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+}
+.two-col-one {
+    width: 20%;
+}
+
+.two-col-two {
+    width: 50%;
+}
+.two-col-two h2{
+    color: white;
+    font-size: 90px;
+}
+.two-col-two img{
+    height: auto;
+    width: 100%;
+}
+.two-col-three{
+    width: 20%;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.bg-image-two-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.bg-image-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 /*Section 3*/
 .three-container{
 display: flex;
-height: 100vh;
+height: 1000px;
 background-color: #Fad21b;
 }
 .three-left{
@@ -183,19 +234,29 @@ overflow: auto;
 }
 .three-left h1{
     font-size: 4rem;
-    padding: 11.2rem 10rem 0rem 2rem;
+    padding: 26rem 10rem 0rem 2rem;
 }
 .three-right{
     flex: 1;
     position: relative;
+    padding-right: 3rem;
 }
-.three-right img{
-    position: absolute;
+.orbs-container {
+    position: relative;
+  }
+.orbs-container img{
+    display: block;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 580px;
+    height: 1000px;
 }
+  .orbs-top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0 0rem 0 22.3rem;
+  }
 /*Section 4*/
 .four{
     width: 100%;
@@ -260,7 +321,7 @@ overflow: auto;
     position: relative;
     max-width: 100%;
     height: auto;
-    padding: 1rem 3.5rem 0rem 3.5rem;
+    padding: 1rem 0rem 0rem 0rem;
     margin: 0 auto;
 }
 .siximgcontainer{
@@ -299,7 +360,7 @@ overflow: auto;
     position: absolute;
     text-align: left;
     bottom: 1px;
-    left: 1px;
+    left: 3.5rem;
 }
 .top-rightprgh {
     position: absolute;
