@@ -203,7 +203,7 @@ li a:hover{
 }
 .bottom-left {
     position: absolute;
-    bottom: 0.5px;
+    bottom: 5rem;
     left: 16px;
 }
 .bottom-left h1{
